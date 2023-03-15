@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.exitcontroller">
+   <children>
+      <Button fx:id="exit_but" layoutX="98.0" layoutY="319.0" mnemonicParsing="false" onAction="#exit" prefHeight="81.0" prefWidth="134.0" text="Exit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="replay_but" layoutX="375.0" layoutY="319.0" mnemonicParsing="false" onAction="#replay" prefHeight="81.0" prefWidth="134.0" text="Replay">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="exitImage" fitHeight="252.0" fitWidth="416.0" layoutX="95.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you sure you want to leave?" textAlignment="CENTER" wrappingWidth="571.2687377929688">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
